@@ -1,0 +1,22 @@
+#JSGF V1.0;
+/*
+Grammar file is used to specify a set of words which will be searched for while the detection process and the best match 
+found would be given as an output.
+*/
+
+
+grammar hello;
+
+public <double> = (sixty|seventy|eighty|ninety)(one|two|three|four|five|six|seven|eight|nine); //67 to 99
+public <single> = (seventy|eighty|ninety|hundred); //70,80,90,100.
+
+public <hundred1> = (hundred)(one|two|three|four|five|six|seven|eight|nine|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen); //101-119
+public <hundred2> = (hundred)(twenty)(one|two|three|four|five|six|seven|eight|nine);//121-129
+public <hundred3> = (hundred)(thirty)(one|two|three|four|five|six|seven|eight|nine);//131-139
+public <hundred4> = (hundred)(forty)(one|two|three|four|five|six|seven|eight|nine);//141-149
+public <hundred5> = (hundred)(fifty)(one|two|three|four|five|six|seven|eight|nine);//151-159
+public <hundred6> = (hundred)(sixty)(one|two|three|four|five|six|seven|eight|nine);//161-169
+public <hundred7> = (hundred)(seventy)(one|two|three|four|five|six|seven|eight|nine);//171-179
+public <hundred8> = (hundred)(ten|twenty|thirty|forty|fifty|sixty|seventy);//110,120,130,140,150,160,170
+
+                    
